@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dk.spacetrold.odsherred.ExpandActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/secondary_color">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/secondary_light_color"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:elevation="3dp">
+
+            <TextView
+                android:id="@+id/textHeader"
+                style="@style/TitleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/list_padding"
+                android:paddingLeft="@dimen/list_padding"
+                android:paddingRight="@dimen/list_padding"
+                android:paddingStart="@dimen/list_padding"
+                android:paddingTop="@dimen/list_padding" />
+
+            <TextView
+                android:id="@+id/textFlavour"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                style="@style/DefaultText"
+                android:paddingStart="@dimen/list_padding"
+                android:paddingLeft="@dimen/list_padding"
+                android:paddingEnd="@dimen/list_padding"
+                android:paddingRight="@dimen/list_padding"
+                android:paddingBottom="@dimen/list_padding"/>
+
+            <LinearLayout
+                android:id="@+id/locationButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackground"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_margin="@dimen/list_padding"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/open_location"
+                    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    style="@style/Base.TextAppearance.AppCompat.Button" />
+
+                <ImageView
+                    tools:ignore="contentDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_place_black_24dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

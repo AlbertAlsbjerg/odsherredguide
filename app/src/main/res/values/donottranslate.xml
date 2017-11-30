@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- strings for Restaurants and cafés -->
+    <!-- name strings -->
+    <string-array name="restaurants_name_array">
+        <item>Dragsholm</item>
+        <item>Cafe Busk</item>
+        <item>Cafe Nokken</item>
+        <item>Fiskebistroen - Rørvig Harbour</item>
+        <item>Hotel Du Vest</item>
+        <item>Lyngkroen Inn</item>
+        <item>Restaurant Madkunsten</item>
+        <item>Rørvig Kro Restaurant &amp; Cafe</item>
+        <item>Højby Kro</item>
+        <item>Cafe and Restaurant Nykøbing</item>
+        <item>Café Viella</item>
+    </string-array>
+
+    <!-- Restaurants and cafés location strings -->
+    <string-array name="restaurants_location_array">
+        <item>geo:55.771242,11.390793</item>
+        <item>geo:55.923140017867,11.671964201348</item>
+        <item>geo:55.914452617805,11.675264239311</item>
+        <item>geo:55.94483101,11.76632868</item>
+        <item>geo:55.922282,11.665883</item>
+        <item>geo:55.938208,11.703410999 </item>
+        <item>geo:55.922633172,11.670820271</item>
+        <item>geo:55.944699,11.760759</item>
+        <item>geo:55.91162,11.604391</item>
+        <item>geo:55.922618307,11.669419279</item>
+        <item>geo:55.810248971,11.500861961</item>
+    </string-array>
+
+    <!--- image URL strings -->
+    <string-array name="restaurants_image_array">
+        <item>http://files.guidedanmark.org/files/476/476_310810.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/167580_cafe-busk-01.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/166571_cafe-nokken-nykoebing-sjaelland-01.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/476_310750.jpg?qfix</item>
+        <item>https://hotelduvest.dk/wp-content/uploads/2015/09/HDV_gade.jpg</item>
+        <item>http://files.guidedanmark.org/files/476/476_311490.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/476_311478.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/476_311453.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/172343_hoejby-kro-01.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/476_257761.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/476_255502.jpg?qfix</item>
+    </string-array>
+
+
+    <!-- strings for Art category -->
+    <!-- name strings -->
+    <string-array name="art_name_array">
+        <item>Odsherred Art Museum</item>
+        <item>Annemarie design</item>
+        <item>Birgit Krogh Keramik</item>
+        <item>Berit Othman</item>
+        <item>Tue Keramik, Galleri</item>
+        <item>Galleri Glas-art</item>
+        <item>Galleri Nakke Hage</item>
+        <item>Galleri Svanen</item>
+    </string-array>
+
+    <!-- geo location strings -->
+    <string-array name="art_location_array">
+        <item>geo:55.809582217,11.505220587</item>
+        <item>geo:55.853102,11.530664</item>
+        <item>geo:55.925307,11.676385</item>
+        <item>geo:55.869353,11.637244</item>
+        <item>geo:55.816679162,11.405836407</item>
+        <item>geo:55.837013,11.447732999</item>
+        <item>geo:55.911388615,11.73884278</item>
+        <item>geo:55.837184,11.644767</item>
+    </string-array>
+
+    <!--- image URL strings -->
+    <string-array name="art_image_array">
+        <item>http://files.guidedanmark.org/files/476/476_311199.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/476_310510.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/476_159415.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/140222_berit-othman-atelier-01.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/476_309774.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/476_310509.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/476_311329.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/476_311133.jpg?qfix</item>
+    </string-array>
+
+
+    <!-- strings for Geo Park category -->
+    <!-- name strings -->
+    <string-array name="geo_name_array">
+        <item>Esterhøj</item>
+        <item>Kong Øres Grav</item>
+        <item>Næsholm Borgruin</item>
+        <item>Skanserne</item>
+        <item>Ulkerup Landsby</item>
+        <item>Vejrhøjbuen &amp; Vejrhøj</item>
+        <item>Kelstrup ruinen</item>
+        <item>Birkehøj Passage Graves</item>
+    </string-array>
+
+    <!-- geo location strings -->
+    <string-array name="geo_location_array">
+        <item>geo:55.836142557,11.484127013</item>
+        <item>geo:55.81534121,11.713485613 </item>
+        <item>geo:55.919985608,11.627779</item>
+        <item>geo:55.955084562,11.789933442</item>
+        <item>geo:55.869295,11.668308</item>
+        <item>geo:55.793138559,11.396025</item>
+        <item>geo:55.830023,11.568432</item>
+        <item>geo:55.932684223,11.595373041</item>
+    </string-array>
+
+    <!--- image URL strings -->
+    <string-array name="geo_image_array">
+        <item>http://www.geoparkodsherred.dk/sites/default/files/styles/news_and_article_image/public/asp/geoparkodsherred/Kortsiden_1024/esterhoj_starup_geoparkodsherred_1024.jpg?itok=Hlyz09i2</item>
+        <item>http://naturstyrelsen.dk/media/nst/12060658/tobiasmarkussen_kongsoreskov_kong_ores_grav_langdysse_randsten_daksten_01.jpg?width=678</item>
+        <item>http://files.guidedanmark.org/files/476/157808_01-nsholm-borgruin.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/476_309242.TIF?qfix</item>
+        <item>http://naturstyrelsen.dk/media/nst/11594122/tobiasmarkussen_ulkerup_ulkerup-landsby_nedlagt_sten_bygning_01.jpg?width=678</item>
+        <item>http://files.guidedanmark.org/files/476/476_310923.jpg?qfix</item>
+        <item>http://natmus.dk/typo3temp/GB/6be988a06f.jpg</item>
+        <item>https://s3.amazonaws.com/gs-geo-images/6c64c5e6-0f1f-40a5-9a14-a05d6afcb632_l.jpg</item>
+    </string-array>
+
+
+    <!-- strings for Camping sites category -->
+    <!-- name strings -->
+    <string-array name="camping_name_array">
+        <item>Sanddobbernes Camping</item>
+        <item>Odsherred Camping Nordstrand</item>
+        <item>DCU Camping Rørvig Strand</item>
+        <item>Høve Camping</item>
+        <item>Kongsøre Camping</item>
+        <item>Teglværksgårdens Camping</item>
+    </string-array>
+
+    <!-- geo location strings -->
+    <string-array name="camping_location_array">
+        <item>geo:55.757431,11.378779</item>
+        <item>geo:55.938165,11.662154</item>
+        <item>geo:55.941349,11.684346</item>
+        <item>geo:55.844835,11.492269</item>
+        <item>geo:55.823533,11.667489</item>
+        <item>geo:55.757196,11.366316 </item>
+    </string-array>
+
+    <!--- image URL strings -->
+    <string-array name="camping_image_array">
+        <item>https://scontent.fbll1\-1.fna.fbcdn.net/v/t1.0\-9/13654264_1261669123867932_8854413331867382175_n.jpg?oh=4657392ab9af1da5c4e7b2424897db14&amp;oe=5ACDBC7C</item>
+        <item>http://files.guidedanmark.org/files/476/160022_odsherred-camping-01.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/476_176692.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/476_176700.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/476_310559.jpg?qfix</item>
+        <item>http://files.guidedanmark.org/files/476/476_162192.jpg?qfix</item>
+    </string-array>
+</resources>

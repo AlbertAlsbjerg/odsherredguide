@@ -1,0 +1,19 @@
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#303f9f</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#001970</color>
+
+    <!-- Primary light color of the app (shown in the tab bar) -->
+    <color name="primary_light_color">#303f9f</color>
+
+    <!-- Secondary color of the app (background color) -->
+    <color name="secondary_color">#cfd8dc</color>
+
+    <!-- Secondary dark color of the app -->
+    <color name="secondary_dark_color">#9ea7aa</color>
+
+    <!-- Secondary light color of the app -->
+    <color name="secondary_light_color">#ffffff</color>
+</resources>
